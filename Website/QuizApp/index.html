@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+          <dir class="logo">
+            <img src="heart.png">
+          </dir>
+          <nav>
+          <ul>
+            <li><a href="../Home/index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="../About/index.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+            <li><a href="../Lessons/index.html"><i class="fa-solid fa-person-chalkboard"></i>Lessons</a></li>
+            <li><a href="../Games/index.html"><i class="fa-solid fa-gamepad"></i>Games</a></li>
+            <li class="active"><a href="#"><i class="fa-solid fa-lightbulb"></i>Quiz</a></li>
+            <li><a href="#"><i class="fa-solid fa-caret-down"></i>More</a>
+              <div class="sub-menu">
+                <ul>
+                   <li><a href="../Contacts/index.html">Contacts</a></li>
+                    <li><a href="../Privacy/index.html">Privacy</a></li>
+                    <li><a href="../Term/index.html">Terms and Conditions</a></li>
+                </ul>
+
+              </div>
+            </li>
+            <li><a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i>Log out</a></li>
+          </ul>
+          </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="quiz" class="centered">
+            <h1>Health Quiz</h1>
+            <h2 id="question" class="headline-secondary--grouped"> </h2>
+            <h3 id="score"></h3>
+
+            <p id="choice0"></p>
+            <button id="guess0" class="btn--default">Select Answer</button>
+
+            <p id="choice1"></p>
+            <button id="guess1" class="btn--default">Select Answer</button>
+
+            <p id="choice2"></p>
+            <button id="guess2" class="btn--default">Select Answer</button>
+
+            <p id="choice3"></p>
+            <button id="guess3" class="btn--default">Select Answer</button>
+
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

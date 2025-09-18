@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons - Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="main">
+      <div class="logo">
+        <img src="heart.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../Home/index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="../About/index.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+          <li class="active"><a href="#"><i class="fa-solid fa-person-chalkboard"></i>Lessons</a></li>
+          <li><a href="../Games/index.html"><i class="fa-solid fa-gamepad"></i>Games</a></li>
+          <li><a href="../QuizApp/index.html"><i class="fa-solid fa-lightbulb"></i>Quiz</a></li>
+          <li><a href="#"><i class="fa-solid fa-caret-down"></i>More</a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="../Contacts/index.html">Contacts</a></li>
+                <li><a href="../Privacy/index.html">Privacy</a></li>
+                <li><a href="../Term/index.html">Terms and Conditions</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i>Log out</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Title like About page -->
+    <div class="title">
+      <h1>📖 Flashcards</h1>
+    </div>
+
+    <!-- Flashcard -->
+    <div class="flashcard-container">
+      <div class="flashcard" id="flashcard">
+        <div class="front" id="front"></div>
+        <div class="back" id="back"></div>
+      </div>
+      <div class="controls">
+        <button id="prevBtn">Previous</button>
+        <button id="flipBtn">Flip</button>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+  </header>
+
+  <script src="script.js"></script>
+</body>
+</html>
